@@ -22,6 +22,10 @@
     height: 50px;
     width: 100%;
 }
+.nav-signin a {
+    color: white;
+    text-decoration: none;
+}
 .slogan {
     color: white;
     width: 100px;
@@ -191,4 +195,49 @@ ul p {
     justify-content: center;
     align-items: center;
     font-size: 0.9rem;
+}
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 25vh;
+        flex-wrap: wrap;
+    }
+
+    .shop-section {
+        flex-direction: column;
+        margin-top: 3px;
+    }
+
+    .box {
+        width: 100%;
+        margin-top: 5px;
+    }
+    .panel {
+        display: flex;
+        height: 10vh;
+        font-weight: normal;
+        flex-direction: row;
+    }
+    .panel-all {
+        text-align: center;
+        justify-content: start;
+        font-weight: normal;
+        padding: 8px 9px 8px 9px;
+    }
+    .panel-ops {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        font-weight: normal;
+    }
+    .hero-section {
+        height: 20vh;
+    }
+    .box-content {
+        border: 2px solid black;
+        padding: 15px;
+
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
 }
