@@ -81,12 +81,17 @@ span {
 .nav-search:hover {
     border: 2px solid orange;
 }
-.cart-icon i {
+.cart i {
     font-size: 30px;
 }
-.cart-icon {
+.cart {
     font-size: 0.85rem;
     font-weight: 700;
+}
+.cart a, .panel a, .panel-ops a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
 }
 .panel {
     height: 40px;
@@ -115,9 +120,28 @@ span {
     padding: 8px 9px 8px 9px;
 }
 .hero-section {
-    background-image: url("Images/hero_image.jpg");
+    background-image: url("Images/hero_image_Demo.jpg");
     background-size: cover;
     height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.hero-desc {
+    text-align: center;
+    background: linear-gradient(135deg, #367dad, #a84dcd);
+    color: white;
+    font-size:xx-large;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 110px;
+    width: 550px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    
 }
 .shop-section {
     display: flex;
@@ -141,6 +165,22 @@ span {
 .box-content {
     margin-left: 1rem;
     margin-right: 1rem;
+}
+.shop-button button{
+    text-align: center;
+    color: white;
+    background-color: #141425;
+    padding: 2px;
+    border: 1.4px solid white;
+    height: 30px;
+    width: 90px;
+    font-size:medium;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shop-button button:hover {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: white;
 }
 .box-content a {
     text-decoration: none;
