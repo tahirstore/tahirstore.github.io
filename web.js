@@ -13,13 +13,13 @@ input.addEventListener('keyup', () => {
                 
             } else {
                 title.parentElement.parentElement.style.display = "none";
-                // heroSec.style.display = "block";
             }
         });
     }
     else {
         titles.forEach((title) => {
             title.parentElement.parentElement.style.display = "block";
+            heroSec.style.display = "block";
         });
     }
   });
